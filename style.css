@@ -14,11 +14,15 @@ body{
     color: white;
 }
 
+main{
+    height: 100%;
+}
+
 main .flex{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 96vh;
+    height: 100%;
 }
 
 main .flex .textos-btn .btns{
@@ -89,8 +93,8 @@ main .flex .fotos #ftrelogio{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 40px 0 4%;
-        height: 100%;
+        padding: px 0 4%;
+        
     }
 
     main .flex .textos-btn .btns{
