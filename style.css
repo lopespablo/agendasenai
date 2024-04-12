@@ -83,25 +83,11 @@ main .flex .fotos #ftrelogio{
 
 
 
-@media screen and (max-width:555px){
+@media screen and (max-width:500px){
 
-    body{
-        padding: 0;
-    }
-
-    main .flex{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 70px 4%;
-        
-    }
-
-    main .flex .textos-btn .btns{
-        padding-bottom: 60px;
-    }
-
+   main .flex{
+    flex-direction: column;
+   }
     main .flex .textos-btn .btns button{
         padding: 3px;
         height: 50px;
