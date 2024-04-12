@@ -9,27 +9,21 @@
 
 body{
     background-color: #12A1BB;
-    height: 100%;
+    height: 100vh;
     color: white;
 }
 
-main .interface{
-    height: 100vh;
-}
-
 main .flex{
-    height: 100%;
-    padding: 20px 4%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    height: 100vh;
 }
 
 main .flex .textos-btn .btns{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 74px;
+    margin-bottom: 70px;
 }
 
 main .flex .textos-btn .btns button{
@@ -39,6 +33,7 @@ main .flex .textos-btn .btns button{
     background-color: #12A1BB;
     border-radius: 10px;
     color: white;
+    font-size: 15px;
     font-weight: 800;
     text-align: center;
     transition: .2s;
@@ -87,14 +82,18 @@ main .flex .fotos #ftrelogio{
 
    main .flex{
     flex-direction: column;
-    padding: 0;
    }
-    main .flex .textos-btn .btns button{
+
+   main .flex .textos-btn .btns{
+    margin-bottom: 50px;
+   }
+    
+   main .flex .textos-btn .btns button{
         padding: 3px;
         height: 50px;
         width: 150px;
-        margin: 0 17px;
-        justify-content: center;
+        margin: 0 17px;  
+        font-size: 14px;  
     }
 
     main .flex .textos-btn h1{
@@ -108,10 +107,7 @@ main .flex .fotos #ftrelogio{
     }
 
     main .flex .fotos{
-        display: flex;
         align-items: center;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
     }
 
     main .flex .fotos #ftboneco{
