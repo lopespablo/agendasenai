@@ -22,7 +22,7 @@ main .flex{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100%;
+
 }
 
 main .flex .textos-btn .btns{
@@ -93,12 +93,12 @@ main .flex .fotos #ftrelogio{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: px 0 4%;
+        padding: 70px 4%;
         
     }
 
     main .flex .textos-btn .btns{
-        padding-bottom: 50px;
+        padding-bottom: 60px;
     }
 
     main .flex .textos-btn .btns button{
@@ -121,7 +121,7 @@ main .flex .fotos #ftrelogio{
 
     main .flex .fotos{
         display: flex;
-        padding: 60px 0 20px;
+        padding: 70px 0px 20px;
         align-items: center;
         margin-bottom: 0px;
         padding-bottom: 0px;
