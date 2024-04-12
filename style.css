@@ -87,6 +87,7 @@ main .flex .fotos #ftrelogio{
 
    main .flex{
     flex-direction: column;
+    padding: 0;
    }
     main .flex .textos-btn .btns button{
         padding: 3px;
@@ -108,7 +109,7 @@ main .flex .fotos #ftrelogio{
 
     main .flex .fotos{
         display: flex;
-        padding: 70px 0px 20px;
+        padding: ;
         align-items: center;
         margin-bottom: 0px;
         padding-bottom: 0px;
