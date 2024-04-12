@@ -26,6 +26,17 @@ main .flex .textos-btn .btns{
     margin-bottom: 70px;
 }
 
+main .flex .textos-btn .btns #btn1{
+    background-color: #ffffff;
+    color: #12A1BB;
+    transition: .2s;
+}
+
+main .flex .textos-btn .btns #btn1:hover{
+    background-color: #12A1BB;
+    color: white;
+}
+
 main .flex .textos-btn .btns button{
     padding: 10px;
     border: 1px solid white;
@@ -66,6 +77,38 @@ main .flex .fotos #ftrelogio{
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
+footer .sobre{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+footer .sobre h3{
+    font-size: 22px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+footer .sobre .seta button{
+    background-color: transparent;
+    border: none;
+}
+
+footer .sobre .seta button img{
+    transition: .2s;
+}
+
+footer .sobre .seta button img:hover{
+    transform: scale(1.2);
+}
+
+footer .sobre .sobrenos {
+    text-align: justify;
+    padding: 5px 20px;
+    display: none;
+}
+
+
+
 
 @keyframes flutuar{
     0%{
@@ -80,9 +123,10 @@ main .flex .fotos #ftrelogio{
 
 @media screen and (max-width:500px){
 
+
    main .flex{
     flex-direction: column;
-    height: 97vh;
+    height: 98vh;
    }
 
    main .flex .textos-btn .btns{
