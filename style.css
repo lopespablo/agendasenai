@@ -126,11 +126,7 @@ footer .sobre .sobrenos {
 
    main .flex{
     flex-direction: column;
-    height: 98vh;
-   }
-
-   main .flex .textos-btn .btns{
-    margin-bottom: 50px;
+    height: 90vh;
    }
     
    main .flex .textos-btn .btns button{
