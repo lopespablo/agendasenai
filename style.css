@@ -105,6 +105,12 @@ footer .sobre .sobrenos {
     text-align: justify;
     padding: 5px 20px;
     display: none;
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 20px;
+    width: 390px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #0a738652;
 }
 
 
@@ -128,6 +134,10 @@ footer .sobre .sobrenos {
     flex-direction: column;
     height: 90vh;
    }
+
+   main .flex .textos-btn .btns{
+    margin-bottom: 40px;
+   }
     
    main .flex .textos-btn .btns button{
         padding: 3px;
@@ -149,17 +159,21 @@ footer .sobre .sobrenos {
 
     main .flex .fotos{
         align-items: center;
+        position: relative;
     }
 
     main .flex .fotos #ftboneco{
         height: 306px;
         width: 280px;
-        
     }
 
     main .flex .fotos #ftrelogio{
         height: 75px;
         width: 75px;
         filter: drop-shadow(0px 167px 20px rgba(0, 0, 0, 0.178));
+        position: absolute;
+        margin-bottom: 0px;
+        top:70px;
+        right: 20px;
     }
 }
