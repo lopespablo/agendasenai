@@ -133,10 +133,11 @@ footer .sobre .sobrenos {
    main .flex{
     flex-direction: column;
     height: 90vh;
+    justify-content:space-around;
    }
 
    main .flex .textos-btn .btns{
-    margin-bottom: 40px;
+    margin-bottom: 47px;
    }
     
    main .flex .textos-btn .btns button{
@@ -163,8 +164,8 @@ footer .sobre .sobrenos {
     }
 
     main .flex .fotos #ftboneco{
-        height: 306px;
-        width: 280px;
+        height: 328px;
+        width: 300px;
     }
 
     main .flex .fotos #ftrelogio{
